@@ -1,7 +1,5 @@
-*.la
-*.lo
 *.o
-.libs/
+.deps/
 Makefile
 Makefile.in
 aclocal.m4
@@ -14,10 +12,15 @@ config.sub
 configure
 depcomp
 install-sh
-libtool
-ltmain.sh
+libvxiclient.a
+libvxiserver.a
 missing
 stamp-h1
 vxi.h
 vxi_clnt.c
+vxi_intr.h
+vxi_intr_clnt.c
+vxi_intr_svr.c
+vxi_intr_xdr.c
+vxi_svr.c
 vxi_xdr.c
