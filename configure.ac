@@ -5,7 +5,6 @@ AC_INIT([vxi], [0.0.20121221], [Simon.Richter@hogyros.de])
 AM_INIT_AUTOMAKE([1.10 foreign])
 AM_MAINTAINER_MODE
 AC_CONFIG_SRCDIR([vxi.x])
-AC_CONFIG_HEADER([config.h])
 AC_CONFIG_FILES([Makefile])
 
 # Checks for programs.
